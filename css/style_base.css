@@ -132,12 +132,13 @@ nav ul li a:hover::before{
     border-left: 10px solid rgba(66,139,202,.2);
     animation: girar 1s linear infinite;
  }
-@keyframes girar{
-    0%{
+
+@keyframes girar {
+    0% {
         transform: rotate(0deg);
     }
 
-    100%{
+    100% {
         transform: rotate(360deg);
     }
 }
